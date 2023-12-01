@@ -135,15 +135,20 @@ article p{
 }
 
 article  aside > p.extra{
-    background-color: rgb(58, 101, 116);
+    background-color: rgb(49, 82, 49);
     font-weight: bold;
     color: black;
     font-size: 1.3em;
 }
 
+article aside p>strong{
+    color: black;
+    background-color: rgb(71, 122, 71);
+}
+
 article aside{
     border-radius: 0px 0px 10px 10px;
-    background-color: rgb(77, 134, 153);
+    background-color: rgb(68, 110, 68);
     font-family: var(--fonte-padrao);
     font-weight: bold;
     box-shadow: -1px 1px 6px 0px rgba(0, 0, 0, 0.315);
