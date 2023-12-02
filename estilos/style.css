@@ -161,13 +161,14 @@ article aside{
 
 aside > ul{
     list-style-type: '\2714';
-    columns: 3;
+    columns: 2;
     
 }
 
 footer{
     text-align: center;
     background-color: var(--cor4);
-    color: black;
+    color: white;
     margin-top: -15px;
+    font: bold 0.8em var(--fonte-padrao)
 }
