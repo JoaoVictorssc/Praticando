@@ -25,6 +25,8 @@
 
 body{
     background-color: var(--cor5);
+    display: block;
+    
 }
 
 p{
@@ -34,7 +36,7 @@ p{
 }
 
 header{
-    background-image: linear-gradient(to  right, var(--cor2), var(--cor4) );
+    background-image: linear-gradient(to top, #5f8659, var(--cor5));
     text-align: center;
     padding-bottom: 30px;
     margin-top: 0px;
@@ -44,7 +46,7 @@ header{
 header h1{
     font-family: var(--fonte-especial);
     font-size: 3em;
-    text-shadow: 1px 0px 3px black;
+    text-shadow: 1px 0px 3px rgba(0, 0, 0, 0.418);
     font-weight: normal;
 }
 
@@ -57,16 +59,15 @@ header p{
 }
 
 main{
-    background-color: white;
-    margin-left: 60px;
-    margin-right: 60px;
     margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 10px;
     text-indent: 30px;
     line-height: 1.2em;
     background-color: var(--cor1);
     box-shadow: -1px -1px 8px 0px rgba(0, 0, 0, 0.329);
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
+    min-width: 300px;
+    max-width: 1000px;
 }
 
 main p{
@@ -98,7 +99,6 @@ main h1{
     background-color: var(--cor4);
     text-align: justify;
     margin-top: -10px;
-    border-radius: 10px 10px 0px 0px;
 }
 
 main  h2{
@@ -140,6 +140,9 @@ article  aside > p.extra{
     color: black;
     font-size: 1.3em;
     text-align: justify;
+    margin-top: -20px;
+    margin-left: -20px;
+    margin-right: -20px;
 }
 
 article aside p>strong{
@@ -153,11 +156,12 @@ article aside{
     font-family: var(--fonte-padrao);
     font-weight: bold;
     box-shadow: -1px 1px 6px 0px rgba(0, 0, 0, 0.315);
+    padding: 20px;
 }
 
 aside > ul{
     list-style-type: '\2714';
-    columns: 2;
+    columns: 3;
     
 }
 
